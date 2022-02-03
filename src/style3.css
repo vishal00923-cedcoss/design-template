@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#wrapper {
+  max-width: 1260px;
+  display: flex;
+  flex-direction: column;
+  margin: 16px auto;
+}
+
+#header {
+  display: flex;
+  flex-direction: column;
+}
+
+ul {
+  list-style: none;
+}
+
+.logo {
+  float: left;
+  margin-top: 80px;
+}
+
+#navbar {
+  float: right;
+  margin-top: -32px;
+}
+
+#navbar .item-container {
+  float: right;
+  display: flex;
+  column-gap: 32px;
+}
+
+#banner {
+  margin-top: 64px;
+  padding: 48px;
+  padding-left: 32px;
+  background-color: rgb(235, 235, 235);
+}
+
+#banner .box {
+  width: 300px;
+  line-height: 1.6;
+}
+
+.btn {
+  display: inline-block;
+  padding: 4px 12px;
+}
+
+#three-boxes {
+  display: flex;
+  column-gap: 48px;
+  margin-top: 32px;
+  margin-left: 32px;
+  margin-right: 32px;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  column-gap: 32px;
+}
+
+.empty-box {
+  padding: 32px;
+  color: rgb(235, 235, 235);
+  background-color: rgb(235, 235, 235);
+}
+
+.box-content {
+  margin-top: 12px;
+  text-align: center;
+}
+
+.black-link {
+  color: #000;
+}
+
+#footer {
+  margin-top: 48px;
+  padding: 24px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: center;
+  padding: inherit;
+  background-color: rgb(235, 235, 235);
+}
+
+.h2-heading {
+  margin-right: 32px;
+}
+
+#text-box {
+  outline: none;
+  padding: 4px;
+  margin-right: 16px;
+}
+
+#color-btn {
+  border: none;
+  display: inline-block;
+  padding: 8px 64px;
+  background-color: rgb(0, 140, 255);
+  color: white;
+  font-weight: 700;
+}
+
+#span-left {
+  margin-top: 8px;
+  float: left;
+}
+
+#span-right {
+  margin-top: 8px;
+  float: right;
+}
+
+/*================= Media Queries =======================*/
+@media screen and (max-width: 760px) {
+  #three-boxes {
+    flex-direction: column;
+  }
+
+  .box {
+    margin-top: 20px;
+  }
+
+  .footer-content {
+    flex-direction: column;
+  }
+
+  #text-box {
+    margin-top: 16px;
+    width: 100%;
+  }
+
+  #color-btn {
+    margin-top: 16px;
+  }
+
+  .h2-heading {
+    text-align: center;
+  }
+}
