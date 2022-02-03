@@ -75,3 +75,12 @@ li:hover {
 h2 {
   color: steelblue;
 }
+
+#footer {
+  background-color: rgb(146, 146, 146);
+  padding: 26px;
+}
+
+#bottom {
+  text-align: right;
+}
