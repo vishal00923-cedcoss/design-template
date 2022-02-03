@@ -46,3 +46,32 @@ li {
 li:hover {
   background-color: green;
 }
+
+.flex-container {
+  display: flex;
+}
+
+#main-content {
+  float: left;
+  margin: 30px;
+  width: 70%;
+}
+
+.big-heading {
+  font-size: 36px;
+  color: steelblue;
+}
+
+.paragraph-content {
+  justify-content: center;
+}
+
+#aside-content {
+  width: 30%;
+  padding: 24px;
+  background-color: silver;
+}
+
+h2 {
+  color: steelblue;
+}
